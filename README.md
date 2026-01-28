@@ -39,10 +39,10 @@ The core idea is simple yet powerful:
 ### 1. Decision Frameworks
 | Model | Observability | Learning | Social Interaction |
 |------|--------------|----------|-------------------|
-| MDP | Fully observable | Model-based |
-| POMDP | Partially observable | Model-based | 
-| POMDP-SL | Partial + public belief | Model-based | 
-| RL-SL | Partial + public belief | Model-free | 
+| MDP | Fully observable | Model-based | No |
+| POMDP | Partially observable | Model-based | No |
+| POMDP-SL | Partial + public belief | Model-based | Yes |
+| RL-SL | Partial + public belief | Model-free | Yes |
 
 ### 2. Social Learning Model
 - Hidden binary state `x ∈ {0,1}`
@@ -111,8 +111,4 @@ Both methods:
   - Public belief evolution
   - Average decision accuracy
   - RL convergence diagnostics
-
----
-
-## 📁 Repository Structure (suggested)
 
